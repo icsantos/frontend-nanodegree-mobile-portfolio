@@ -12,6 +12,10 @@ body {
   background: black;
 }
 
+h4 {
+  text-transform: capitalize;
+}
+
 input {
   background: grey;
   font-size: 18px;
@@ -33,6 +37,7 @@ form {
   position: fixed;
   width: 256px;
   z-index: -1;
+  backface-visibility: hidden;
 }
 
 .randomPizzaContainer {
