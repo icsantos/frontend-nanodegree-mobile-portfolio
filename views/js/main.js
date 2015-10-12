@@ -516,13 +516,11 @@ function updatePositions() {
     maxPos = 5,
     i;
   for (i = 0; i < maxPos; i++) {
-    //phases.push(Math.sin(scrollTop + (i % maxPos)) * 100);
-    phases.push(Math.sin(scrollTop + (i % maxPos)) * (i % 8) * 256);
+    phases.push(Math.sin(scrollTop + (i % maxPos)) * 100);
   }
 
   for (i = 0; i < allMoversLength; i++) {
-    //allMovers[i].style.left = allMovers[i].basicLeft + phases[i % 5] + 'px';
-    allMovers[i].style.transform = 'translateX(' + phases[i % 5] + 'px)';
+    allMovers[i].style.left = allMovers[i].basicLeft + phases[i % 5] + 'px';
   }
 
   // User Timing API to the rescue again. Seriously, it's worth learning.
