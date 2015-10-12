@@ -23,8 +23,7 @@ Identify and perform optimizations to achieve a PageSpeed Insights score of 90 f
 * https://developers.google.com/analytics/devguides/collection/analyticsjs/?hl=en
 * https://developers.google.com/speed/pagespeed/module/filter-css-inline-google-fonts
 
-PageSpeed Insights Score
-------------------------
+#####PageSpeed Insights Score
 * 95/100 Mobile
 * 97/100 Desktop
 
