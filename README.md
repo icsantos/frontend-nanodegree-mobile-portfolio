@@ -4,13 +4,13 @@ The objective is to optimize a specified online portfolio for speed. In particul
 
 ### Getting started
 
-URLs of the original version of the portfolio
-* Repository: https://github.com/udacity/frontend-nanodegree-mobile-portfolio
-* Live site: http://cameronwp.github.com/udportfolio
-
 URLs of the optimized version of the portfolio
 * Repository: https://github.com/icsantos/frontend-nanodegree-mobile-portfolio
 * Live site: http://icsantos.github.io/frontend-nanodegree-mobile-portfolio/
+
+URLs of the original version of the portfolio
+* Repository: https://github.com/udacity/frontend-nanodegree-mobile-portfolio
+* Live site: http://cameronwp.github.com/udportfolio
 
 #### Part 1: Optimize PageSpeed Insights score for index.html
 
