@@ -356,9 +356,8 @@ var pizzaElementGenerator = function(i) {
 
 // All the pizza elements have the same width so we use the first pizza element
 // to determine the new width for all pizza elements
-var allPizzaContainers = Array.prototype.slice.call(document.getElementsByClassName("randomPizzaContainer")),
-  allPizzaContainersLength = allPizzaContainers.length,
-  allPizzaContainersOffsetWidth = allPizzaContainers[0].offsetWidth;
+var firstPizzaContainer = pizzasDiv.getElementsByClassName("randomPizzaContainer")[0],
+  pizzaContainerOffsetWidth = firstPizzaContainer.offsetWidth;
 
 // resizePizzas(size) is called when the slider in the "Our Pizzas" section of the website moves.
 var resizePizzas = function(size) {
@@ -410,8 +409,10 @@ var resizePizzas = function(size) {
   }
 
   // Iterates through pizza elements on the page and changes their widths
-  var dx = determineDx(allPizzaContainersOffsetWidth, size),
-    newwidth = (allPizzaContainersOffsetWidth + dx) + 'px';
+  var allPizzaContainers = Array.prototype.slice.call(pizzasDiv.getElementsByClassName("randomPizzaContainer")),
+    allPizzaContainersLength = allPizzaContainers.length;
+  var dx = determineDx(pizzaContainerOffsetWidth, size),
+    newwidth = (pizzaContainerOffsetWidth + dx) + 'px';
 
   function changePizzaSizes() {
     var i;
