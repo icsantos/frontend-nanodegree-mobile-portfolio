@@ -1,5 +1,5 @@
-# Website Performance Optimization portfolio project
-Udacity Front-End Web Developer Nanodegree Project 4: Website Optimization
+# Website Performance Optimization
+Udacity Front-End Web Developer Nanodegree Project 4
 
 ## Project overview
 
