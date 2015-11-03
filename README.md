@@ -79,10 +79,12 @@ Identify and perform optimizations to achieve a PageSpeed Insights score of 90 f
   - In Cam's Pizzeria page, scroll down until you see the slider below the heading **Our Pizzas!**
   - Click the left or size side of the slider
   - The message `Time to resize pizzas:` followed by the time in milliseconds will display on the console
+
     | Version    | Time to resize pizzas |
     | ---------- | ---------------------:|
     | Optimized  |   0.56999999999971 ms |
     | Original   | 199.44499999999243 ms |
+
 * To check the frame rate
   - Click on Timeline in the DevTools menu
   - To start recording a new timeline, click the record toolbar button at the top-left (below the search button) of the DevTools window, or press CTRL + E
